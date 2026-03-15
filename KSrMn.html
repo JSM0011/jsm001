@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KSrMn的个人主页</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        background-color: #ffffffa2;
+      }
+      * {
+        border: 1px solid black;
+      }
+      .flex {
+        display: flex;
+      }
+      .flex1 {
+        display: flex1;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .row {
+        flex-direction: row;
+      }
+      .white {
+        background-color: #eee;
+      }
+      .end {
+        width: 25%;
+        height: 100px;
+        color: #666;
+      }
+      .center {
+        align-items: center;
+      }
+      .start {
+        align-items: flex-start;
+      }
+      .cebian {
+        width: 50%;
+        height: 70px;
+        margin: 15%;
+        background-color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--抬头-->
+    <div style="width: 100%; height: 100px" class="flex white center">
+      <div class="flex">
+        <img
+          src="./KSrMn的个人主页_files/ORsyo9.jpeg"
+          alt="KSrMn"
+          width="100px"
+          height="100px"
+        />
+      </div>
+      <div style="width: 100%; height: 100px" class="flex white column center">
+        <b style="margin: 20px; font-size: 30px">KSrMn的个人主页</b>
+      </div>
+    </div>
+    <div class="flex row">
+      <!--左侧边栏-->
+      <div style="width: 20%; height: 780px" class="flex white column">
+        <div class="flex start cebian"></div>
+        <div class="flex start cebian"></div>
+        <div class="flex start cebian"></div>
+        <div class="flex start cebian"></div>
+      </div>
+      <!--主要内容-->
+      <div style="width: 80%" class="flex flex1 white column center">
+        <div
+          style="
+            height: 25%;
+            width: 35%;
+            margin: 100px;
+            border: 70px;
+            background-color: chartreuse;
+            font-size: large;
+          "
+          class="flex column center"
+        >
+          <b>你好,世界！</b> <b>网站还在完善中……</b>
+        </div>
+        <div
+          style="
+            width: 70%;
+            height: 30%;
+            background: rgb(0, 208, 255);
+            text-align: center;
+            padding: 8%;
+            font-size: 20px;
+          "
+          class="flex center column"
+        >
+          <b>我的B站</b>
+          <a
+            href="https://space.bilibili.com/3493086307027210?spm_id_from=333.1007.0.0"
+          >
+            链接</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--底栏-->
+    <div style="width: 100%; height: 100px" class="flex white row">
+      <div class="white flex flex1 end column"></div>
+      <div class="white flex flex1 end column"></div>
+      <div class="white flex flex1 end column"></div>
+      <div class="white flex flex1 end column"></div>
+    </div>
+  </body>
+</html>
